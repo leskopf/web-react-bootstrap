@@ -1,6 +1,10 @@
 nav.navbar, .navbar-default {
-  background-color: #2892D7 !important;
+  background: transparent !important;
+  margin-bottom:0px;
+  box-shadow: none;
 }
+
+
 
 .navbar-default {
   background-image: none;
@@ -36,4 +40,22 @@ nav.navbar, .navbar-default {
 .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
   color: white;
   background-color: transparent;
+}
+
+
+nav.navbar.isScrolling,  .navbar-default.isScrolling {
+  background: white !important;
+  margin-bottom:0px;
+  box-shadow: 1px -2px 8.3px -1px;
+}
+.isScrolling.navbar-default .navbar-brand, .isScrolling.navbar-default .navbar-nav > li > a {
+  color: black;
+}
+.isScrolling.navbar-default .navbar-toggle {
+  border-color:black;
+
+}
+.isScrolling.navbar-default .navbar-toggle .icon-bar {
+  background-color: black;
+
 }
