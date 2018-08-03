@@ -6,6 +6,21 @@ import griff from "./griff_team.svg";
 import summit from "./summit-logo.svg";
 
 export default class Partners extends Component {
+
+  /*const partners = (
+    {
+      image: "assets/partners/evalue_logo-small.png",
+      name: "Evalue",
+      description: "Cooperated on corporate and enterprice projects."
+    },
+    {
+      image: "assets/partners/evalue_logo-small.png",
+        name: "Evalue",
+      description: "Cooperated on corporate and enterprice projects."
+    }
+
+  });
+*/
   render() {
     return (
       <div>
